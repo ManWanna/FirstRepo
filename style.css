@@ -1,0 +1,26 @@
+body {
+    font-family: 'Segoe script';
+    font-weight: 550;
+    background-color:Bisque ;
+    margin: 10px 0 0 20px;
+}
+h1 {
+    color: indianred;
+    margin-bottom: 0px;
+    margin: 10px 0;
+}
+form > span {
+    color: Blue;
+    display: inline-block;
+    margin: 10px 0;
+}
+div {
+    margin: 0 20px;
+}
+ul {
+    display: inline-block;
+    margin-top: 0px;
+}
+th, td {
+    padding: 5px;
+}
