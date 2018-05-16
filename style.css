@@ -4,22 +4,74 @@ body {
     background-color:Bisque ;
     margin: 10px 0 0 20px;
 }
+
 h1 {
     color: indianred;
     margin: 10px 0;
 }
+
 form > span {
     color: Blue;
     display: inline-block;
     margin: 10px 0;
 }
+
 div {
     margin: 0 20px;
 }
+
 ul {
     display: inline-block;
     margin-top: 0px;
 }
+
 th, td {
     padding: 5px;
+}
+
+tr:not(:first-child):hover{
+    background-color: darkturquoise;
+}
+
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(226, 21, 209);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(70, 109, 161);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+input, select, label {
+    border-radius: 6px;
+    outline: none;
+    cursor: pointer;
+}
+
+input[type="button"] {
+    background-color: rgba(0, 255, 242, 0.425);
+    -webkit-transition-duration: 0.3s; 
+    transition-duration: 0.3s;
+    box-shadow: 5px 3px 9px 0 rgba(0,0,0,0.2), 1px 3px 9px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+}
+
+input[type="button"]:hover {
+    background-color: rgb(175, 76, 122);
+    color:black;
 }
