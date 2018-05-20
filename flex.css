@@ -1,3 +1,7 @@
+body {
+    font-family: 'Comic Sans Ms';
+    font-size: medium;
+}
 #main {
     border: 3px solid;
     width: 800px;
@@ -8,46 +12,42 @@
 }
 #upper {
     border-bottom: solid;
-    height: 70px;
+    flex: 0 0 67px;
+    background-color: bisque;
 }
-h1 {
-    margin: 0 10px;
-}
-#left {
-    width: 150px;
-    height: 530px;
+#middle {
     flex-direction: column;
-    align-items: center;
+    overflow: auto;
+    background-color: rgb(231, 219, 204);
 }
-.initials {
+.left {
+    align-items: center;
+    justify-content: space-evenly;
+    flex: 0 0 147px;
+    border-right: solid;
+    margin:0 10px 0 5px;
+}
+.ini {
     border: solid;
-    padding: 20px;
-    border-radius: 100%;
-    margin: 40px;        
+    padding: 15px;
+    border-radius: 50%;
+    background-color: bisque;
 }
-hr {
-    border-left-width: 3px;
-    border-right-width: 0px;
-    color: black;
-    height: 1165px;
+.time {
+    flex-basis: 0%;
 }
-#right {
+.right {
     flex-direction: column;
-    width: 650px;
-    height: 530px;
-    align-items: center;
+    margin: 10px;
+}
+.name {
+    margin: 0 0 5px 18px;
 }
 .text {
     border: solid;
-    width: 580px;
-    margin: 5px 15px 15px 15px;
-    padding: 6px;
-    border-radius: 5px;
-}
-span {
-    margin-left: 18px;
-}
-#middle {
-    overflow: auto;
-    height: 530px;
+    padding: 5px;
+    border-radius: 10px;
+    text-indent: 10px;
+    hyphens: auto;
+    background-color: rgb(243, 237, 230);
 }
