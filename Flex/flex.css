@@ -3,6 +3,7 @@ body {
     font-size: medium;
 }
 #main {
+    display: flex;
     border: 3px solid;
     width: 800px;
     height: 600px;
@@ -15,17 +16,35 @@ body {
     flex: 0 0 67px;
     background-color: bisque;
 }
+#upper > h1 {
+    margin: 0 5px;
+}
+#upper > span {
+    margin: 5px;
+}
 #middle {
+    display: flex;
     flex-direction: column;
     overflow: auto;
     background-color: rgb(231, 219, 204);
 }
+#middle > div {
+    display: flex;
+    flex-shrink: 0;
+}
 .left {
+    display: flex;
     align-items: center;
     justify-content: space-evenly;
     flex: 0 0 147px;
     border-right: solid;
     margin:0 10px 0 5px;
+}
+#middle :first-child .left {
+    margin: 10px 10px 0 5px;
+}
+#middle :last-child .left {
+    margin: 0 10px 10px 5px;
 }
 .ini {
     border: solid;
@@ -37,6 +56,7 @@ body {
     flex-basis: 0%;
 }
 .right {
+    display: flex;
     flex-direction: column;
     margin: 10px;
 }
