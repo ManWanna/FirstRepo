@@ -1,0 +1,84 @@
+@import url("normalize.css");
+body {
+  font-family: 'Segoe script';
+  font-weight: 600;
+  margin: 10px 0 0 20px;
+}
+
+h1 {
+  margin: 10px 0;
+}
+
+div {
+  margin: 0 20px;
+}
+
+ul {
+  display: inline-block;
+  margin-top: 0px;
+}
+
+th, td {
+  padding: 5px;
+}
+
+form > span {
+  display: inline-block;
+  margin: 10px 0;
+}
+
+input, select, label {
+  border-radius: 6px;
+  outline: none;
+  cursor: pointer;
+}
+
+body {
+  background-color: Bisque;
+}
+
+h1 {
+  color: indianred;
+}
+
+form > span {
+  color: Blue;
+}
+
+tr:not(:first-child):hover {
+  background-color: darkturquoise;
+}
+
+a:link, a:visited {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #e215d1;
+}
+
+a:hover, a:active {
+  color: #466da1;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+}
+
+input[type="button"]:hover {
+  background-color: #af4c7a;
+  color: black;
+}
+
+input[type="button"] {
+  background-color: rgba(0, 255, 242, 0.425);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  box-shadow: 5px 3px 9px 0 rgba(0, 0, 0, 0.2), 1px 3px 9px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
+}
+/*# sourceMappingURL=main.css.map */

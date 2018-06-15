@@ -1,0 +1,50 @@
+body {
+    background-color:Bisque ;
+}
+
+h1 {
+    color: indianred;
+}
+
+form > span {
+    color: Blue;
+}
+
+tr:not(:first-child):hover{
+    background-color: darkturquoise;
+}
+
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    @extend a:link;
+    color: rgb(226, 21, 209);
+}
+
+a:hover {
+    color: rgb(70, 109, 161);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    @extend a:hover;
+    color: yellow;
+}
+
+input[type="button"]:hover {
+    background-color: rgb(175, 76, 122);
+    color:black;
+}
+
+input[type="button"] {
+    background-color: rgba(0, 255, 242, 0.425);
+    -webkit-transition-duration: 0.3s; 
+    transition-duration: 0.3s;
+    box-shadow: 5px 3px 9px 0 rgba(0,0,0,0.2), 1px 3px 9px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+}

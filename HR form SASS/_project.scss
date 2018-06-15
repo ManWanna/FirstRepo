@@ -1,0 +1,12 @@
+form > { 
+    span {
+    display: inline-block;
+    margin: 10px 0;
+    }
+}
+
+input, select, label {
+    border-radius: 6px;
+    outline: none;
+    cursor: pointer;
+}
