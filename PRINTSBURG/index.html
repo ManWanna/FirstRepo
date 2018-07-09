@@ -1,0 +1,561 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="vendor/normalize.css">
+        <link rel="stylesheet" href="styles/main.css">
+    </head>
+    <body>
+        <header>
+            <div class="main-content flex-container">
+                <img src="./assets/logo.png" class="logo" alt="Logo">
+                <nav id="navpanel" class="flex-container">
+                    <div class="nav-item">Преимущества</div>
+                    <div class="nav-item">Портфолио</div>
+                    <div class="nav-item">Отзывы</div>
+                    <div class="nav-item">Пакеты услуг</div>
+                    <div class="nav-item">Порядок работы</div>
+                </nav>
+                <div class="phone-and-lang flex-container">
+                    <span class="phone">8 800 128-98-87</span>
+                    <div class="langs-container column-container">
+                        <div class="lang">ua</div>
+                        <div class="delimeter"></div>
+                        <div class="lang">ru</div>
+                    </div>
+                </div>
+                <button type="button" class="burger-menu" onclick="toggleBurger()">
+                    <div class="burger-line"></div>
+                    <div class="burger-line"></div>
+                    <div class="burger-line"></div>
+                </button>
+            </div>
+        </header>
+        <main class="main-content">
+            <section class="first-block">
+                <div class="first-block-label title-text">
+                    Брошюры,<br />
+                    Каталоги<br />
+                    И журналы<br />
+                    <span class="first-block-label-last-row">от производителя</span>
+                </div>
+                <ol class="first-block-list medium-text">
+                    <li>Возьмемся за проекты разной сложности</li>
+                    <li>Договоримся о цене</li>
+                    <li>Разработаем правильный дизайн</li>
+                    <li>Напечатаем без посредников</li>
+                    <li>Доставим в срок</li>
+                </ol>
+                <div class="first-block-image"></div>
+                <div class="first-block-button-container flex-container">
+                    <div class="delimeter-container column-container">
+                        <div class="delimeter-top-part"></div>
+                        <div></div>
+                    </div>
+                    <div class="first-block-button">
+                        <button type="button" class="button">Бесплатная консультация<br/> и расчет стоимости</button>
+                    </div>
+                </div>
+            </section>
+            <section class="about-block flex-container">
+                <div class="about-block-discription column-container">
+                    <div class="about-block-discription-top eng-title-text">
+                        <span class="">О PRINTSBURG</span>
+                    </div>
+                    <div class="about-block-discription-bottom small-text">
+                        <span>Printsburg – это дружная, профессиональная команда 
+                              менеджеров, дизайнеров, печатников, инженеров. 
+                              Мы работаем в узком полиграфическом сегменте, что 
+                              позволяет производить более качественный продукт,
+                              с помощью которого наши клиенты достигают
+                              поставленных целей.</span>
+                    </div>
+                </div>
+                <div class="about-block-service column-container">
+                    <div class="about-block-service-top small-bold-text">
+                        <span class="">5 лет в полиграфии.<br/>
+                                                  Качественный сервис,<br/>
+                                                  всегда онлайн</span>
+                    </div>
+                    <div class="about-block-service-bottom small-text">
+                        <span>Постоянная информационная
+                              поддержка наших клиентов - с нами
+                              вы спокойно проходите все этапы
+                              производства. Фото и видео
+                              уведомления о стадии Ваших
+                              заказов.</span>
+                    </div>
+                </div>
+                <div class="about-block-tasks column-container">
+                    <div class="about-block-tasks-top small-bold-text">
+                        <span class="">
+                            Более 300 рекламно-
+                            информационных изданий ежегодно</span>
+                    </div>
+                    <div class="about-block-tasks-bottom small-text">
+                        <span>Печатаем от одного
+                              экземпляра до бесконечности.
+                              Умеем решать нестандартные
+                              задачи.</span>
+                    </div>
+                </div>
+            </section>
+            <section class="why-block flex-container">
+                <div class="why-block-left eng-title-text">
+                    <span>Почему постоянные клиенты нам доверяют?</span>
+                </div>
+                <div class="why-block-right column-container">
+                    <div class="why-block-right-top flex-container">
+                        <div class="why-block-right-top-focus column-container">
+                            <div class="why-block-right-top-focus-top small-bold-text">
+                                <span>Нацеленность на решение ваших задач</span>
+                            </div>
+                            <div class="why-block-right-top-focus-bottom small-text">
+                                <span>Ваши основные послания и идеи ярко и понятно ложатся на бумагу и доносятся до целевой аудитории</span>
+                            </div>
+                        </div>
+                        <div class="why-block-right-top-correction column-container">
+                            <div class="why-block-right-top-correction-top small-bold-text">
+                                <span>Грамотная коррекция текста</span>
+                            </div>
+                            <div class="why-block-right-top-correction-bottom small-text">
+                                <span>Четко и ясно фиксируем все ваши преимущества и пользу для потенциальных пратнеров и клиентов</span>
+                            </div>
+                        </div>
+                        <div class="why-block-right-top-layout column-container">
+                            <div class="why-block-right-top-layout-top small-bold-text">
+                                <span>Качественная верстка и дизайн</span>
+                            </div>
+                            <div class="why-block-right-top-layout-bottom small-text">
+                                <span>Раскрывем суть Вашего бизнеса и подчеркиваем главные смыслы специальных предложений</span>
+                            </div>
+                        </div>
+                        <div class="why-block-right-top-equipment column-container">
+                            <div class="why-block-right-top-equipment-top small-bold-text">
+                                <span>Технологичное современное оборудование</span>
+                            </div>
+                            <div class="why-block-right-top-equipment-bottom small-text">
+                                <span>Испльзуем новые разработки, придерживаемся принципов экологичности</span>
+                         </div>           
+                        </div>                     
+                    </div>
+                    <div class="why-block-right-bottom medium-text">
+                        <span>
+                            Вы покупаете не краску на бумаге, а современные, качественные и эффективные средства коммуникации для продвижения своих проектов.
+                        </span>
+                    </div>
+                </div>
+            </section>
+            <section class="examples-block">
+                <div class="examples-block-title eng-title-text">
+                    <span>Примеры сфер, в которых постоянно используются брошюры, каталоги и журналы:</span>
+                </div>
+                <div class="examples-block-sphere flex-container">
+                    <div class="examples-block-sphere-left medium-text">
+                        <span>
+                            Производственные компании – печатают для своего бизнеса каталоги продукции, имиджевые журналы и брошюры, промоброшюры, информационные методички
+                        </span>
+                    </div>
+                    <div class="examples-block-sphere-center medium-text">
+                        <span>
+                            Компании сферы услуг - используют периодические журналы с полезным контентом и рекламные брошюры 
+                        </span>
+                    </div>
+                    <div class="examples-block-sphere-right medium-text">
+                        <span>
+                            Стартап проектам необходимы брошюры для привлечения инвесторов и партнеров, для продвижения своих идей в массы
+                        </span>
+                    </div>
+                </div>
+                <div class="examples-block-others medium-text">
+                    <span>
+                        .А так-же, все те, кому есть что рассказать или предложить, кому важно развитие бизнеса через создание индивидуального качественного контента.
+                    </span>
+                </div>
+            </section>
+            <section class="getit-block">
+                <div class="getit-block-you eng-title-text">
+                    <span>
+                        Узнали себя?
+                    </span>
+                </div>
+                <div class="getit-block-letitbe small-bold-text">
+                    <span>
+                        Давайте наш менеджер привезет Вам образцы полиграфии, чтобы Вы лучше представляли, какие виды продукции подойдут для Ваших целей
+                    </span>
+                </div>
+                <div class="getit-block-button-container flex-container">
+                    <div class="getit-block-button">
+                        <button type="button" class="buttonMid">
+                            Получить образцы продукции бесплатно
+                        </button>
+                    </div>
+                    <div class="delimiter">
+
+                    </div>
+                </div>
+
+            </section>
+            <section class="together-block">
+                <div class="together-block-title eng-title-text">
+                    Вместе мы сможем решить ваши задачи:
+                </div>
+                <div class="together-block-help ">
+                    <div class="together-block-help-top flex-container">
+                        <div class="together-block-help-top-attention medium-text">
+                            <span>
+                                Привлечь внимание потенциальных партнеров и клиентов для действующего бизнеса
+                            </span>
+                        </div>
+                        <div class="together-block-help-top-loyalty medium-text">
+                            <span>
+                                Укрепить и развивать лояльность постоянных клиентов
+                            </span>
+                        </div>
+                    </div>
+                    <div class="together-block-help-buttom flex-container">
+                        <div class="together-block-help-buttom-center medium-text">
+                            <span>
+                                Быть всегда в центра внимание и на гребне волны
+                            </span>
+                        </div>
+                        <div class="together-block-help-buttom-differ medium-text">
+                            <span>
+                                Ярко и понятно выделяться среди конкурентов
+                            </span>
+                        </div>
+                    </div>
+                
+                </div>
+            </section>
+            <section class="cases-block">
+                <div class="cases-block-title eng-title-text">
+                    <span>Примеры работ</span>
+                </div>
+                <div class="cases-block-pictures flex-container">
+                    <div class="cases-block-pictures-1">
+                    </div>
+                    <div class="cases-block-pictures-2">
+                    </div>
+                    <div class="cases-block-pictures-3">
+                    </div>
+                    <div class="cases-block-pictures-4">
+                    </div>
+                    <div class="cases-block-pictures-5">
+                    </div>
+                    <div class="cases-block-pictures-6">
+                    </div>
+                    <div class="cases-block-pictures-7">
+                    </div>
+                    <div class="cases-block-pictures-8">
+                    </div>
+                    <div class="cases-block-pictures-9">
+                    </div>
+                    <div class="cases-block-pictures-10">
+                    </div>
+                    <div class="cases-block-pictures-11">
+                    </div>
+                    <div class="cases-block-pictures-12">
+                    </div>
+                    <div class="cases-block-pictures-13">
+                    </div>
+                    <div class="cases-block-pictures-14">
+                    </div>
+                    <div class="cases-block-pictures-15">
+                    </div>
+                    <div class="cases-block-pictures-16">
+                    </div>
+                    <div class="cases-block-pictures-17">
+                    </div>
+                    <div class="cases-block-pictures-18">
+                    </div>
+                    <div class="cases-block-pictures-19">
+                    </div>
+                    <div class="cases-block-pictures-20">
+                    </div>
+                    <div class="cases-block-pictures-21">
+                    </div>
+                    <div class="cases-block-pictures-22">
+                    </div>
+                    <div class="cases-block-pictures-23">
+                    </div>
+                    <div class="cases-block-pictures-24">
+                    </div>
+                </div>
+                <div class="cases-block-try flex-container">
+                    <div class="cases-block-try-left medium-text">
+                        <span>
+                            Попробуйте эти работы на ощупь, это бесплатно и ни к чему не обязывает 
+                        </span>
+                    </div>
+                    <div class="cases-block-try-button">
+                        <button type="button" class="buttonMid">
+                            Получить образцы продукции бесплатно
+                        </button>
+                    </div>
+                </div>
+            </section>
+            <section class="solutions-block">
+                <div class="solutions-block-label eng-title-text">
+                    Готовые стандартные <br/> 
+                    решения для <br/> 
+                    вашего бизнеса
+                </div>
+                <section class="solutions-container flex-container">
+                    <div class="solution-container-left">
+                        <div class="solution-title-left small-bold-text">
+                            <span>Пакет «Стандартный»</span>
+                        </div>
+                        <div class="solution-content-left medium-text">
+                            <span>
+                                Формат: А5 / А4<br/> 
+                                К-во страниц: 16 стр<br/> 
+                                Плотность бумаги: 130 гр<br/> 
+                                Крепление: на скобы<br/> 
+                                От 1000 шт
+                                <br/> 
+                                <br/> 
+                                От --- грн (А5)<br/> 
+                                От --- грн (А4)
+                            </span> 
+                        </div>
+                        <div class="solution-button-left">
+                            <button class="buttonMid" type="button">Заказать</button>
+                        </div>
+                    </div>
+                    <div class="solution-container-center">
+                        <div class="solution-title-center small-bold-text">
+                            <span>Пакет «Популярный»</span>
+                        </div>
+                        <div class="solution-content-center medium-text">
+                            <span>
+                                Формат: А5 / А4<br/> 
+                                К-во страниц: 16 стр<br/> 
+                                Плотность бумаги: 130 гр<br/> 
+                                Крепление: на скобы<br/> 
+                                От 1000 шт
+                                <br/> 
+                                <br/> 
+                                От --- грн (А5)<br/> 
+                                От --- грн (А4)
+                            </span>
+                        </div>
+                        <div class="solution-button-center">
+                            <button class="buttonMid" type="button">Заказать</button>
+                        </div>
+                    </div>
+                    <div class="solution-container-right">
+                        <div class="solution-title-right small-bold-text">
+                            <span>Пакет «Имиджевый»</span>
+                        </div>
+                        <div class="solution-content-right medium-text">
+                            <span>
+                                Формат: А5 / А4<br/> 
+                                К-во страниц: 16 стр<br/> 
+                                Плотность бумаги: 130 гр<br/> 
+                                Крепление: на скобы<br/> 
+                                От 1000 шт
+                                <br/> 
+                                <br/> 
+                                От --- грн (А5)<br/> 
+                                От --- грн (А4)
+                            </span>
+                        </div>
+                        <div class="solution-button-right">
+                            <button class="buttonMid" type="button">Заказать</button>
+                        </div>
+                    </div>
+                </section>
+                <div class="solutions-block-bottom flex-container">
+                    <div class="solutions-block-bottom-help small-bold-text">
+                        <span>
+                            Не нашли свой вариант?<br/>
+                            Мы можем сделать любую<br/> 
+                            другую комплектацию<br/>
+                            полиграфии под Ваши задачи<br/>
+                        </span>
+                        <span class="solutions-block-bottom-help-low small-bold-text">
+                            Мы - производство, поэтому нам есть что предложить.
+                        </span>
+                    </div>
+                    <div class="solutions-block-bottom-button">
+                        <button type="button" class="buttonMid small-bold-text">
+                            Узнайте больше<br/>
+                            о возможностях
+                        </button>
+                    </div>
+                </div>
+            </section>
+            <section class="order-block">
+                <div class="order-block-title eng-title-text">
+                    <span>
+                        Порядок работы
+                    </span>
+                </div>
+                <div class="steps-container flex-container">
+                    <div class="step-container-01">
+                        <div class="step-container-left">
+                            <div class="step-number eng-title-text">
+                                01
+                            </div>
+                        </div>
+                        <div class="step-container-right">
+                            <div class="step-label small-bold-text">
+                                Запрос
+                            </div>
+                            <span class="step-content medium-text">Получение информации о цели производства рекламной полиграфии</span>
+                        </div>
+                    </div>
+                    <div class="step-container-01">
+                            <div class="step-container-left">
+                                <div class="step-number eng-title-text">
+                                    02
+                                </div>
+                            </div>
+                            <div class="step-container-right">
+                                <div class="step-label small-bold-text">
+                                    Анализ/Цена
+                                </div>
+                                <span class="step-content medium-text">
+                                    Подбор формата,<br/> 
+                                    технологии, тиража<br/>
+                                    и отделки полиграфии.<br/>
+                                    Формирование<br/>
+                                    бюджета
+                                </span>
+                            </div>
+                    </div>
+                    <div class="step-container-01">
+                            <div class="step-container-left">
+                                <div class="step-number eng-title-text">
+                                    03
+                                </div>
+                            </div>
+                            <div class="step-container-right">
+                                <div class="step-label small-bold-text">
+                                    Договор/Оплата
+                                </div>
+                                <span class="step-content medium-text">
+                                    Подписание договора,<br/>
+                                    согласование условий,<br/>
+                                    предоплата. При 100%<br/>
+                                    оплате дополнительный<br/>
+                                    бонус или скидка
+                                </span>
+                            </div>
+                        </div>
+                        <div class="step-container-01">
+                                <div class="step-container-left">
+                                    <div class="step-number eng-title-text">
+                                        04
+                                    </div>
+                                </div>
+                                <div class="step-container-right">
+                                    <div class="step-label small-bold-text">
+                                        Дизайн/Макет
+                                    </div>
+                                    <span class="step-content medium-text">
+                                        Разработка макета<br/>
+                                        или проверка<br/>
+                                        существующего<br/>
+                                        согласно требований.<br/>
+                                        Согласование варианта
+                                    </span>
+                                </div>
+                        </div>
+                        <div class="step-container-01">
+                                <div class="step-container-left">
+                                    <div class="step-number eng-title-text">
+                                        05
+                                    </div>
+                                </div>
+                                <div class="step-container-right">
+                                    <div class="step-label small-bold-text">
+                                        Производство
+                                    </div>
+                                    <span class="step-content medium-text">
+                                        Запуск в печать,<br/>
+                                        возможность вашего<br/>
+                                        присутствия на<br/>
+                                        производстве,<br/>
+                                        получение фото/видео<br/>
+                                        отчетов об этапах<br/>
+                                        прохождение продукта
+                                    </span>
+                                </div>
+                        </div>
+                        <div class="step-container-01">
+                                <div class="step-container-left">
+                                    <div class="step-number eng-title-text">
+                                        06
+                                    </div>
+                                </div>
+                                <div class="step-container-right">
+                                    <div class="step-label small-bold-text">
+                                        Доставка/Гарантия
+                                    </div>
+                                    <span class="step-content medium-text">
+                                        Доставим по адресу.<br/>
+                                        Полная гарантия<br/>
+                                        соответствия<br/>
+                                        продукции всем<br/>
+                                        нормам производства.<br/>
+                                        Брак не допустим!
+                                    </span>
+                                </div>
+                        </div>
+                        <div class="step-container-01">
+                                <div class="step-container-left">
+                                    <div class="step-number eng-title-text">
+                                        07
+                                    </div>
+                                </div>
+                                <div class="step-container-right">
+                                    <div class="step-label small-bold-text">
+                                        Рекомендации
+                                    </div>
+                                    <span class="step-content medium-text">
+                                        Каждый клиент,<br/>
+                                        пришедший по<br/>
+                                        вашей рекомендации,<br/>
+                                        принесет бонусы при<br/>
+                                        последующих заказах
+                                    </span>
+                                </div>
+                        </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="footer-block flex-container">
+                <img src="./assets/logoBig.png" class="footer-block-logo" alt="Logo">
+                <div class="footer-block-discuss title-text">
+                    <span>
+                        Остались<br/>
+                        вопросы?
+                    </span>
+                    <div class="footer-block-discuss-lets medium-text">
+                        Давайте обсудим задачу!
+                    </div>
+                    <div class="footer-block-discuss-button small-bold-text">
+                        <button class="button" type="button">Получить консультацию<br/> специалиста</button>
+                    </div>
+                </div>
+                <div class="footer-block-contacts medium-text">
+                    <span>
+                        Мы бесплатно<br/>
+                        проконсультируем<br/>
+                        вас по всем<br/>
+                        вопросам о<br/>
+                        производстве<br/>
+                        полиграфии<br/>
+                        <br/>
+                        8 (800) 987-65-43<br/>
+                        8 (800) 987-65-44<br/>
+                        info@printsburg.ua
+                    </span>
+                </div>
+            </div>
+        </footer>
+        <script src="./scripts.js"></script>
+    </body>
+</html>

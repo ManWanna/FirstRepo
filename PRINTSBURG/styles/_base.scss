@@ -1,0 +1,88 @@
+@import "common-colors";
+
+div, section, main,
+header, footer, button {
+    box-sizing: border-box;
+    font-family: 'Proxima Nova Regular';
+    color: $primary-color;
+}
+
+header {
+    height: 75px;
+}
+
+footer {
+    height: 525px;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+}
+
+.column-container {
+    @extend .flex-container;
+    flex-direction: column;
+}
+
+.main-content {
+    max-width: 1050px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.title-text {
+    font-size: 55px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Proxima Nova Bold';
+}
+
+.medium-text {
+    font-size: 23px;
+    font-family: 'Proxima Nova light';
+}
+
+.small-text {
+    font-size: 16.5px;
+    line-height: 20px;
+}
+
+.eng-title-text {
+    font-family: 'Proxima Nova Bold';
+    font-size: 48px;
+    text-transform: uppercase;
+}
+
+.small-bold-text {
+    font-family: 'Proxima Nova Bold';
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+}
+
+.button {
+    width: 246px;
+    letter-spacing: 0.35px;
+    font-family: 'Proxima Nova Bold';
+    border-radius: 6px;
+    color: white;
+    background-color: $secondary-color;
+    border: none;
+    line-height: 1.25;    
+    box-shadow: 4px 5px 8px 2px transparentize(#333, 0.5);
+    height: 54px;
+}
+
+.buttonMid {
+    width: 216px;
+    letter-spacing: 0.35px;
+    font-family: 'Proxima Nova Bold';
+    border-radius: 6px;
+    color: white;
+    background-color: $secondary-color;
+    border: none;
+    line-height: 1.25;    
+    box-shadow: 4px 5px 8px 2px transparentize(#333, 0.5);
+    height: 55px;
+}
