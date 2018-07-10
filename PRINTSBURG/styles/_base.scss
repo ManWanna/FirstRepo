@@ -74,6 +74,10 @@ footer {
     height: 54px;
 }
 
+.button:hover {
+    cursor: pointer;
+}
+
 .buttonMid {
     width: 216px;
     letter-spacing: 0.35px;
@@ -85,4 +89,8 @@ footer {
     line-height: 1.25;    
     box-shadow: 4px 5px 8px 2px transparentize(#333, 0.5);
     height: 55px;
+}
+
+.buttonMid:hover {
+    cursor: pointer;
 }
