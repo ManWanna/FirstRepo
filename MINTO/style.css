@@ -1,0 +1,9 @@
+body {
+    background-image: url(Minto.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    height: 1824px;
+    max-width: 1200px;
+    margin: 0 auto;
+}

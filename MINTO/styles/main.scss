@@ -1,0 +1,15 @@
+@import 'cosmetics';
+@import 'base';
+@import 'project';
+
+
+body {
+    background-color: lightgray;
+    font-family: 'Segoe UI Regular';
+    background-image: url(../Minto.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
